@@ -3,29 +3,22 @@
 Endpoint que retorna os estabelecimentos de saúde dentro de uma região. Os dados são do CADASTRO NACIONAL DE ESTABELECIMENTOS DE SAÚDE
 
 ### Prerequisites
-
-Nodejs
-Npm
+	Nodejs
+	Npm
 
 
 ### Installing
 
 clone este repositório
-faça download a base de dados na url abaixo
 
-http://i3geo.saude.gov.br/i3geo/ogc.php?OUTPUTFORMAT=csv&bbox=-76.5125927,-39.3925675209,-29.5851853,9.49014852081&service=wfs&version=1.1.0&request=getfeature&layers=cnes_ativo&typeName=cnes_ativo&ows_geomtype=none
-
-extraia o arquivo .csv na pasta
-
-run
-
-npm install
+execute
+	npm install
 
 ## Teste
 
-run nodejs index.js
+execute nodejs index.js
 
-open on browser http://localhost:5000/?position=-23.96,-46.33&distancia=500&uf=sp
+abra em um browser http://localhost:5000/?position=-23.96,-46.33&distancia=500&uf=sp
 
 ## Uso
 
